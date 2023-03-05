@@ -1,0 +1,28 @@
+name: Hyper Ship Fabricator
+type: UnitFactory
+size: 3
+consumes: {
+  power: 0.1
+}
+plans: [
+  {
+    unit: merui
+    requirements: [
+      silicon/1
+    ] 
+    time: 10 
+  }
+  {
+    unit: navanax
+    requirements: [
+      silicon/1
+    ] 
+    time: 100
+  }
+
+]
+requirements: [
+  silicon/70
+]
+category: units
+research: tank-fabricator
